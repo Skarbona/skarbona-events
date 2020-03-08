@@ -20,11 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint ./src/**/*.{ts,tsx}",
-    "prettier": "prettier --write"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "lint": "eslint ./src/**/*.{ts,tsx}"
   },
   "browserslist": {
     "production": [
@@ -44,18 +40,7 @@
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.2",
-    "husky": "^4.2.3",
-    "lint-staged": "^10.0.8",
+    "node-sass": "^4.13.1",
     "prettier": "^1.19.1"
-  },
-  "hooks": {
-    "pre-commit": "lint-staged"
-  },
-  "lint-staged": {
-    "*.+(ts|tsx)": [
-      "npm run lint",
-      "prettier --write",
-      "git add"
-    ]
   }
 }
