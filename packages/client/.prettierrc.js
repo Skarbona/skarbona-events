@@ -1,3 +1,2 @@
-module.exports = {
-    ...require("../../.prettierrc.js");
-};
+var mainConfig = require('../../.prettierrc.js');
+module.exports = mainConfig;

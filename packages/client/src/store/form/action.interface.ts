@@ -1,11 +1,11 @@
-import { FormActionEnum } from "./enum";
+import { FormActionEnum } from './enum';
 
 interface ActionInterface {
-  type: FormActionEnum
+  type: FormActionEnum;
 }
 
-export interface IPlaceHolderAction extends ActionInterface {
-  type: FormActionEnum.PlaceholderAction
+export interface PlaceHolderAction extends ActionInterface {
+  type: FormActionEnum.PlaceholderAction;
 }
 
-export type FormActions = IPlaceHolderAction;
+export type FormActions = PlaceHolderAction;

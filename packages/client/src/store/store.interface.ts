@@ -10,9 +10,4 @@ export interface RootState {
 
 export type Actions = FormActions;
 
-export type AppThunk<ReturnType = void> = ThunkAction<
-  ReturnType,
-  RootState,
-  null,
-  Action<string>
->;
+export type AppThunk<ReturnType = void> = ThunkAction<ReturnType, RootState, null, Action<string>>;

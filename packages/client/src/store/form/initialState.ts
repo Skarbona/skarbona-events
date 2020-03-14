@@ -1,3 +1,5 @@
 import { FormStateInterface } from './initialState.interface';
 
-export const formInitialState: FormStateInterface = {};
+export const formInitialState: FormStateInterface = {
+  placeholder: false,
+};
